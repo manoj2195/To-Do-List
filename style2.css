@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+.container {
+  border: none;
+
+  background-color: #d1e7d5;
+  height: 40vh;
+  width: 30vw; /* and here*/
+  border-radius: 15px;
+  box-shadow: 4px 5px 6px; /* 4px= horizontal shadow/ 5px=vertical shadow/ 6px=blur radius(cono ko sharp banayga)*/
+}
+.header {
+  border-bottom: 0.5px solid yellow;
+  margin: 10px;
+  padding: 10px;
+  font-size: x-large;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header img {
+  width: 30px;
+  margin-left: 10px;
+}
+.Addtask {
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin: 20px;
+}
+input {
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px; /* and here apply changes*/
+}
+button:hover {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+button {
+  margin-left: 20px; /* changes here*/
+  padding-left: 10px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #ebead1;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
