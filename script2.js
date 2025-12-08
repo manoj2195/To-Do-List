@@ -7,7 +7,7 @@ function addTask() {
   // hamne jo newTask name ka variable create hai usme ham jo input field me likhenge vo input task me print ho jay. jo ki value ki value hai.(matlab jo bhi ham input field me likhenge vo list me show ho jay).
   // .value= jo bhi ham input me likenge vo is ki value hai
   document.getElementById("inputTask").value = ""; // likhne ke baad input field khali ho jay
-  deleteTask(newTask); // list item ke variable ka name rrrrremain
+  deleteTask(newTask); 
 }
 
 function deleteTask(newTask) {
@@ -18,3 +18,4 @@ function deleteTask(newTask) {
     newTask.remove(); // jaise hi ham is delete button pr click karenge tab ek function call ho usme hoga new task.remove (jis bhi element pr ham remove button lagayenga vo remove ho jayga).
   };
 }
+
